@@ -1,3 +1,35 @@
+body { 
+   font-family:Poppins;
+    background-color: #F0B35C;
+    color: #7956A3;
+    font-size: 24pt;
+}
+
+
+
 h1 {
     font-family: 'Courgette';
+    font-size:45pt;
+}
+h3 {
+    font-size:34pt;
+}
+
+header {
+    text-align: center;
+}
+
+#hero, footer {
+    background-color: #5ec4ff;
+    border: 3px solid #f1f1f1;
+    text-align: center;
+    padding: 15px;
+}
+
+#hero img {
+    width: 450px;
+}
+
+#bio {
+    color:antiquewhite;
 }
