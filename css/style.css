@@ -11,6 +11,10 @@ hr {
     color: rgb(84, 143, 253);
 }
 
+p {
+    font-family: 'Poppins';
+}
+
 h1 {
     font-family: 'Courgette';
     font-size:45pt;
@@ -20,6 +24,8 @@ h3 {
 }
 h2 {
     font-family: 'Courgette';
+    text-align: center;
+    text-shadow: 3px 3px 3px #000;
 }
 
 header {
@@ -59,7 +65,7 @@ header {
 #gallery {
     border: 3mm ridge rgb(84, 143, 253);
     text-align:center;
-    padding: 15;
+    padding: 15px;
 }
 
 #gallery img {
@@ -68,4 +74,36 @@ header {
 
 #gallery figure {
     text-align:center;
+}
+
+/* lit */
+
+
+#lit {
+    border: 10px double rgb(84, 152, 255);
+    margin-bottom:2rem;
+}   
+
+#lit div {
+    font-family: 'Poppins';
+    padding:3rem;
+    max-width:44rem;
+    margin: 0 auto;
+}
+
+/* Drop Caps */
+
+#lit div p:nth-child(3n+1):first-letter {
+    font-family: 'Courgette';
+    background-image:linear-gradient(#000);
+    float:left;
+    font-size: 4em;
+    padding: .35em;
+    margin-right: .25em;
+    line-height: .65em;
+    border: 2mm ridge rgb(84, 143, 253);
+    text-shadow: 3px 3px 3px #000;
+    border-top-right-radius: .3em;
+    border-bottom-left-radius: .3em;
+
 }
