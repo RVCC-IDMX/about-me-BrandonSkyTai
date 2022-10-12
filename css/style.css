@@ -1,11 +1,15 @@
+/* Text Styles */
+
 body { 
-   font-family:Poppins;
+   font-family: 'Poppins';
     background-color: #F0B35C;
     color: #7956A3;
     font-size: 24pt;
 }
 
-
+hr {
+    color: rgb(84, 143, 253);
+}
 
 h1 {
     font-family: 'Courgette';
@@ -14,10 +18,16 @@ h1 {
 h3 {
     font-size:34pt;
 }
+h2 {
+    font-family: 'Courgette';
+}
 
 header {
     text-align: center;
 }
+
+/* Hero Section */
+
 
 #hero, footer {
     background-color: #5ec4ff;
@@ -30,6 +40,32 @@ header {
     width: 450px;
 }
 
+/* Bio Section */
+
+
 #bio {
     color:antiquewhite;
+}
+
+/* Hobbies Section */
+
+
+#hobbies ul li {
+    color:purple;
+}
+
+/* Photos Section */
+
+#gallery {
+    border: 3mm ridge rgb(84, 143, 253);
+    text-align:center;
+    padding: 15;
+}
+
+#gallery img {
+    max-width:100%;
+}
+
+#gallery figure {
+    text-align:center;
 }
