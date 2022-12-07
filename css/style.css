@@ -171,8 +171,8 @@ header {
     }
 
     #funnyVideo {
-        width: 250px;
-        height: 180px;
+        width: 350px;
+        height: 250px;
     }
 
     #litcenter p {
@@ -314,7 +314,7 @@ header {
     }
     #funnyVideo {
         width: 854px;
-        height: 480px;
+        height: 600px;
     }
     /*  
     figure { 
