@@ -169,6 +169,12 @@ header {
     figcaption {
         font-size: 12pt;
     }
+
+    #funnyVideo {
+        width: 250px;
+        height: 180px;
+    }
+
     #litcenter p {
         font-size: 15pt;
     }
@@ -223,6 +229,10 @@ header {
     figcaption {
         font-size: 15pt;
     }
+    #funnyVideo {
+        width: 427px;
+        height: 240px;
+    }
     #litcenter p {
         font-size: 15pt;
     }
@@ -276,6 +286,10 @@ header {
     figcaption {
         font-size: 15pt;
     }
+    #funnyVideo {
+        width: 600px;
+        height: 400px;
+    }
     #litcenter p {
         font-size: 15pt;
     }
@@ -298,7 +312,10 @@ header {
     #litcenter p {
         font-size: 18pt;
     }
-
+    #funnyVideo {
+        width: 854px;
+        height: 480px;
+    }
     /*  
     figure { 
         display: grid;
