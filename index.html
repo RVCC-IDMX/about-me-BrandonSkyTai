@@ -190,7 +190,9 @@
             <form id="contact-form" name="contactForm" method="post" data-netlify="true">
 
                 <fieldset>
-                    <legend><h1>Contact Form</h1></legend>
+                    <legend>
+                        <h1>Contact Form</h1>
+                    </legend>
                     <div id="formElements">
 
                         <h6>*required</h6>
@@ -198,17 +200,17 @@
                         <label for="name">Name:</label>
                         <input type="text" id="name" name="name" placeholder="Name*" required>
                         <br>
-                        
+
                         <!--Email-->
                         <label for="email">Email:</label>
                         <input type="email" id="email" name="email" placeholder="Email*" required>
                         <br>
-                    
+
                         <!--Phone-->
                         <label for="Phone">Phone:</label>
                         <input type="tel" id="phone" name="phone" placeholder="123-456-7890">
                         <br>
-                        
+
                         <!--phone type-->
                         <label for="device">Device Type</label>
                         <select id="devicetype" name="devicetype">
@@ -219,7 +221,7 @@
                             <option value="">Desktop</option>
                         </select>
                         <br>
-                        
+
                         <!--Message-->
                         <label for="message">Write Your Message</label>
                         <textarea id="message" name="message" placeholder="Type here" rows="3"></textarea>
@@ -229,24 +231,24 @@
                             <legend>Looking for a Reply?</legend>
 
                             <ul>
-                                
-                                    <input type="radio" id="message-yes" name="reply" value="Yes Reply.">
-                                    <label for="message-yes">Yes, please.</label>
-                                    <br>
-                                    <br>
-                                    <input type="radio" id="message-no" name="reply" value="No Reply." checked="true">
-                                    <label for="message-no">No, thanks.</label>
-                                
+
+                                <input type="radio" id="message-yes" name="reply" value="Yes Reply.">
+                                <label for="message-yes">Yes, please.</label>
+                                <br>
+                                <br>
+                                <input type="radio" id="message-no" name="reply" value="No Reply." checked="true">
+                                <label for="message-no">No, thanks.</label>
+
                             </ul>
 
                         </fieldset>
                         <!--Submit-->
                         <button type="submit">Submit</button>
 
-
-
                     </div>
+                
                 </fieldset>
+            
             </form>
 
 
