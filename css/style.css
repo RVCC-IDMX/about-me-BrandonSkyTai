@@ -36,13 +36,7 @@ header {
 /* Hero Section */
 
 
-#hero, footer {
-    background-color: #3d1e1e;
-    color: antiquewhite;
-    border: 3px solid #f1f1f1;
-    text-align: center;
-    
-}
+
 
 #hero img {
     width: 450px;
@@ -126,11 +120,174 @@ header {
 }
 
 
+
+/* Media States */
+
+@media screen and (min-width: 279px) {
+    
+    #hero, footer {
+        background-color: #3d1e1e;
+        color: antiquewhite;
+        border: 3px solid #f1f1f1;
+        text-align: center;
+            
+    }
+
+    #hero h3, footer {
+        font-size: 15pt;
+
+    }
+
+    #bio div {
+        font-size: 10pt;
+    }
+    #bio h4 {
+        font-size: 15pt;
+    }
+    #hobbies {
+        font-size: 15pt;
+    }
+
+    #video {
+        text-align: center;
+        margin-bottom: 2em;
+    }
+    
+    #hero img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 200px;
+    }
+    #lit div {
+        font-size: 15pt;
+        margin-left: 2em;
+        margin-right: 2em;
+        max-width:100%;
+        columns: 25rem;
+    }
+    figcaption {
+        font-size: 12pt;
+    }
+    #litcenter p {
+        font-size: 15pt;
+    }
+
+
+}
+
+@media screen and (min-width: 410px) {
+    
+    #hero, footer {
+        background-color: #3d1e1e;
+        color: antiquewhite;
+        border: 3px solid #f1f1f1;
+        text-align: center;    
+    }
+
+    #hero h3, footer {
+        font-size: 15pt;
+    }
+
+    #video {
+        text-align: center;
+        margin-bottom: 2em;
+    }
+    
+    #hero img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 350px;
+        
+    }
+
+    #bio div {
+        font-size: 15pt;
+    }
+    #bio h4 {
+        font-size: 20pt;
+    }
+
+    #hobbies {
+        font-size: 18pt;
+    }
+
+    #lit div {
+        font-size: 15pt;
+        margin-left: 2em;
+        margin-right: 2em;
+        max-width:100%;
+        columns: 25rem;
+    }
+    figcaption {
+        font-size: 15pt;
+    }
+    #litcenter p {
+        font-size: 15pt;
+    }
+
+
+}
+
+@media screen and (min-width: 750px) {
+    
+    #hero, footer {
+        background-color: #3d1e1e;
+        color: antiquewhite;
+        border: 3px solid #f1f1f1;
+        text-align: center;    
+    }
+
+    #hero h3, footer {
+        font-size: 35pt;
+    }
+
+    #video {
+        text-align: center;
+        margin-bottom: 2em;
+    }
+    
+    #hero img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 600px;
+    }
+
+    #bio div {
+        font-size: 20pt;
+    }
+    #bio h4 {
+        font-size: 25pt;
+    }
+
+    #hobbies {
+        font-size: 25pt;
+    }
+
+    #lit div {
+        font-size: 15pt;
+        margin-left: 2em;
+        margin-right: 2em;
+        max-width:100%;
+        columns: 25rem;
+    }
+    figcaption {
+        font-size: 15pt;
+    }
+    #litcenter p {
+        font-size: 15pt;
+    }
+
+}
+
 @media screen and (min-width: 850px) {
  
+
+
     #gallery {
         display: flex;
-        
         font-size: 15pt;
     }
 
@@ -157,33 +314,4 @@ header {
         margin: 0 auto;
     }
     */
-}
-
-@media screen and (min-width: 414px) {
-    #video {
-        max-width: auto;
-        max-height: auto;
-        display: block;
-       
-    }
-    
-    #hero img {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        max-width: 350px;
-        ;
-    }
-    #lit div {
-        font-size: 15pt;
-        margin-left: 3em;
-        margin-right: 3em;
-        
-    }
-    figcaption {
-        font-size: 15pt;
-    }
-    #litcenter p {
-        font-size: 20pt;
-    }
 }
