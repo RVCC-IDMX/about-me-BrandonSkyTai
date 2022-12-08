@@ -132,9 +132,17 @@ header {
     border: 3mm ridge rgb(255, 176, 30);
     border-radius: 33px;
     background-color: rgb(185, 185, 185);
-    padding: 1px;
+    padding: 33px;
 }
-
+#contact div {
+    display: block;
+    text-align: center;
+}
+div.formElements {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 
 /* Media States */
