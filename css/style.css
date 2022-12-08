@@ -75,8 +75,6 @@ header {
 /* Photos Section */
 
 #gallery {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
     border: 3mm ridge rgb(255, 176, 30);
     border-radius: 33px;
     text-align: center;
