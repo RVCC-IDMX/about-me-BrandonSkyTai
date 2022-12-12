@@ -10,7 +10,7 @@ This purpose of this project is to create a website that details me, hence the n
 
 For the color scheme of the website I chose the colors grey as the background and a darker purple for the text and headers, and detailed elements are in orange because it is the complementary color of purple and provides a nice contrast element across the page. The hex code are the following
 
-Background: #969696
+Background: #c7c7c7
 Text: #5d289e
 Details: #ffb01e
 
