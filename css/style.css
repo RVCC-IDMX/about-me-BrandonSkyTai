@@ -2,7 +2,7 @@
 
 body {
     font-family: 'Poppins';
-    background-color: #969696;
+    background-color: #c7c7c7;
     color: #5f2f99;
     font-size: 24pt;
 }
@@ -133,10 +133,12 @@ header {
     margin-bottom: 2em;
 }
 
+/* Contact Form */
+
 #contact {
     border: 3mm ridge rgb(255, 176, 30);
     border-radius: 33px;
-    background-color: rgb(185, 185, 185);
+    background-color: rgb(167, 167, 167);
     padding: 33px;
 }
 #contact div {
@@ -144,9 +146,11 @@ header {
     text-align: center;
 }
 div.formElements {
-    display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
+    display: flex;
+}
+div.form {
+    display: flex;
+    flex-direction: column;
 }
 
 
@@ -396,19 +400,5 @@ div.formElements {
         transform: scale(1.4);
         transition: 1000ms ease;
     }
-    /*  
-    figure { 
-        display: grid;
-        grid-row: auto;
-        grid-template-columns: 2fr 1fr;
-
-    }
-
-    figcaption {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: 0 auto;
-    }
-    */
+   
 }
