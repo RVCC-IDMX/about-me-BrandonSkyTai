@@ -58,7 +58,16 @@
             <div>
                 <h2>Biography</h2>
             </div>
-
+            <p>
+              
+                 This is my about me, so let me tell you a bit about me. My full name is Brandon Sky Tai. I am Taiwanese and Cantonese but I was born here in New Jersey. I grew up with just an older brother and my mother. 
+                I like to do a lot of things like playing video games, collecting shoes, creating designs and clothes, watching anime/movies/shows, and I love cars. Some of my dreams include being an architect or at least design my own house, and have my clothing brand gain mainstream popularity. I have a lot of passion for my brand. 
+                I have many favorite video games I grew up playing them since as young as I can remember since my brother was 8 years older than me he always had some gaming device like N64, Game Cube, all the different Game Boys, PS2, XBOX 360, XBOX One, XBOX Series X and PC. I built my own PC. 
+                I have so many different shoes that I don't even wear them all. More than 15 pairs in my closet and more that I wear daily. I have lots of clothes too that I mainly thrifted which is also how my clothing brand kind of started. I used to thrift clothes and wanted to touch em up with my ideas. I learned to sew and hem and that led me to start 
+                ordering blanks so I can start selling them since my friends always asked me to make them one. I love anime I started watching them as long as I can remember too because of my asian background it was never weird to me and my cousin showed me a bunch of Ghibli films I enjoyed it because now I watch all kinds of Animes.
+                I also like shows like Breaking Bad and The Walking Dead. Rick Grimes is probably my favorite character of all time. One of my favorite types of video games are racing games, I grew up with Need for Speed and thats where my love for cars began. My number one dream car is a Dodge Viper.
+                
+            </p>
 
 
         </section>
@@ -77,23 +86,7 @@
                 <li>Collecting shoes</li>
                 <br>
                 <li>Watching anime and collecting figures</li>
-                <li>
-                    <h4>Gamer</h4>
-                    <ul>
-                        <li>Minecraft</li>
-                        <li>Need for Speed</li>
-                        <li>Chivalry 2</li>
-                        <li>Valorant</li>
-                        <li>Legend of Zelda</li>
-                        <li>Rachet and Clank</li>
-                    </ul>
-                </li>
-                <li>
-                    <h4>Nerd</h4>
-                    <ul>Self Explanatory</ul>
-                </li>
-                <li>
-                    <h4>Anime Watcher (Best first)</h4>
+                
                     <ol type="1">
                         <li>Ping Pong the Animation</li>
                         <li>One Piece</li>
@@ -101,11 +94,7 @@
                         <li>Code Geass</li>
                         <li>Welcome to the Ballroom</li>
                     </ol>
-                </li>
-                <li>
-                    <h4>Clothing Brand Owner</h4>
-                    <ul>Unstarbrand.com</ul>
-                </li>
+                
             </ul>
 
         </section>
@@ -118,26 +107,32 @@
         <section id="gallery">
 
             <div class="profile">
+                <figure>
                 <div class="card">
                     <div class="growOne">
                         <img src="img/computer-setup-640w.jpg" alt="my computer setup">
                         <figcaption>This is my computer setup. Playing Chivalry II.</figcaption>
                     </div>
                 </div>
+                </figure>
                 <hr>
+                <figure>
                 <div class="card">
                     <div class="growTwo">
                         <img src="img/shoes-640w.jpg" alt="a bunch of left shoes">
                         <figcaption>Some of the sneakers in my shoe collection. My favorites.</figcaption>
                     </div>
                 </div>
+                </figure>
                 <hr>
+                <figure>
                 <div class="card">
                     <div class="growThree">
                         <img src="img/anime-figures-640w.jpg" alt="my figures of anime characters">
                         <figcaption>These are my favorite characters in some of my favorite animes.</figcaption>
                     </div>
                 </div>
+                </figure>
             </div>
 
         </section>
@@ -173,7 +168,7 @@
                     class="grow"&gt; " <br> and put the img into the div class. <br> &lt;div class="grow"&gt; <br> &lt;img src="img/shoes-640w.jpg" alt="a bunch of left shoes"&gt; <br> &lt;/div&gt; <br> Then in your style.css create a line for the image. ".grow img { }" Inside the brackets you will
                     write "transitions: 1000ms;" formated like so. <br> ".grow img{ <br> transition: 1000ms; <br> }" <br> This is setting the time it
                     takes for the scaling to happen. 1000ms is 1second. Continuing in the css make a new line for the hover effect. The following ".grow img:hover { }"
-                    Then fill in the following the brackets with <br> ".grow img:hover { <br> -webkit-transform: scale(1.4); <br> -ms-transform: scale(1.4); <br> transform: scale(1.4); <br> transition: 1000ms ease; <br> }" <br>
+                    Then fill in the following the brackets with <br> ".grow img:hover { <br> -webkit-transform: scale(1.4); <br> -ms-transform: scale(1.4); <br> transform: scale(1.4); <br> transition: 1000ms ease; <br> }"
                     <br> These webkits are just for making sure that the hover effect works across all web browsers. The scale is what the transform is doing and inside the () is how much is will scale by"
                     After this the hover effect should be applied and when you put your cursor over the image the photo should now enlarge. 
                 </p>
@@ -182,13 +177,28 @@
                     &lt;div class="blur"&gt; <br> &lt;div class="grow"&gt; <br> &lt;img src="img/shoes-640w.jpg" alt="a bunch of left shoes"&gt; <br> &lt;/div&gt; <br> &lt;/div&gt;
                     <br> And then we will create another div inside that div called card. <br> 
                     &lt;div class="blur"&gt; <br> &lt;div class="card"&gt; <br> &lt;div class="grow"&gt; <br> &lt;img src="img/shoes-640w.jpg" alt="a bunch of left shoes"&gt; <br> &lt;/div&gt; <br> &lt;/div&gt;
-
-
+                    <br> Next open the css file. Going to create a new line targeting the div class="blur" <br> ".blur { <br> display: flex; <br> justify-content: space-evenly; <br> }" <br>
+                    Now create one targeting div class="card" <br>
+                    ".card { <br> padding: 10px; <br> margin: 0px 10px; <br> text-align: center; <br> transition: 500ms; <br> }" <br> This is adding some style to the div. Time to create the hover effect for the blur. Create a new line for the hover effect like so. <br>
+                    ".blur:hover .card { <br> filter: blur(10px); <br> }" <br> This creates a blur effect when you hover over the image but it also blurs out the image, so let's fix that. Create a new line for this <br> 
+                    ".profile .card:hover { <br> filter: blur(0px); <br> }" <br> What this does is it let's the code know that when you hover over the specific image it will blur everything but the image the cursor is hovering over. <br>
                 </p>
-
+                
+                <p> 
+                    If you followed these steps correctly your code should work and the image you applied this to should behave like this: 
+                </p>
+            
+            </article>
+        <div class="profile">
+            <div class="card">
+                <div class="growTwo">
+                    <img src="img/shoes-640w.jpg" alt="a bunch of left shoes">
+                    <figcaption>Some of the sneakers in my shoe collection. My favorites.</figcaption>
+                </div>
             </div>
+        </div>    
 
-        </article>
+        
 
         <section id="contact">
             <!--
