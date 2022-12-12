@@ -49,6 +49,10 @@ header {
 
 #bio {
     color: antiquewhite;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    letter-spacing: 3px;
     text-shadow:
         -1px -1px 0 #000,
         1px -1px 0 #000,
@@ -78,6 +82,9 @@ header {
     border: 3mm ridge rgb(255, 176, 30);
     border-radius: 33px;
     text-align: center;
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 #gallery img {
@@ -92,7 +99,7 @@ header {
 
 
 #lit {
-    border: 10px double rgb(255, 176, 30);
+    border: 10px double #FFB01E;
     margin-bottom: 2rem;
 }
 
@@ -263,7 +270,7 @@ div.formElements {
     }
 
     #funnyVideo {
-        width: 427px;
+        width: 370px;
         height: 240px;
     }
 
@@ -333,7 +340,6 @@ div.formElements {
     #litcenter p {
         font-size: 15pt;
     }
-
 }
 
 @media screen and (min-width: 850px) {
@@ -341,7 +347,6 @@ div.formElements {
 
 
     #gallery {
-        display: flex;
         font-size: 15pt;
     }
 
@@ -355,10 +360,42 @@ div.formElements {
     }
 
     #funnyVideo {
-        width: 854px;
+        width: 800px;
         height: 600px;
     }
 
+    .growOne img{
+    transition: 1000ms ease;
+    }
+    
+    .growOne img:hover{
+    -webkit-transform: scale(1.4);
+    -ms-transform: scale(1.4);
+    transform: scale(1.4);
+    transition: 1000ms ease;
+    }
+
+    .growTwo img{
+        transition: 1000ms ease;
+    }
+    
+    .growTwo img:hover{
+        -webkit-transform: scale(1.4);
+        -ms-transform: scale(1.4);
+        transform: scale(1.4);
+        transition: 1000ms ease;
+    }
+
+    .growThree img{
+        transition: 1000ms ease;
+    }
+    
+    .growThree img:hover{
+        -webkit-transform: scale(1.4);
+        -ms-transform: scale(1.4);
+        transform: scale(1.4);
+        transition: 1000ms ease;
+    }
     /*  
     figure { 
         display: grid;
