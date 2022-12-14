@@ -35,6 +35,10 @@ header {
     text-align: center;
 }
 
+.logo img{
+    width: 100px;
+    height: auto;
+}
 /* Hero Section */
 
 
@@ -48,26 +52,22 @@ header {
 
 
 #bio {
-    color: rgb(58, 58, 58);
+    color: rgb(43, 43, 43);
     display: block;
-    margin-left: 25px;
-    margin-right: 25px;
+    border: 10px double #FFB01E;
+    margin: 25px;
     letter-spacing: 3px;
-    text-shadow:
-        -.4px -.4px 0 #000,
-        .4px -.4px 0 #000,
-        -.4px .4px 0 #000,
-        .4px .4px 0 #000;
+    padding: 20px;
+
+   
 }
 
 #bio p{
-    font-size: 15pt;
+    font-size: 18pt;
     max-width: 100%;
-    columns: 25rem;
+    columns: 45rem;
 }
-#bio .indent {
-    color: rgb(rgba(255, 255, 255, 0), rgba(0, 128, 0, 0), rgba(0, 0, 255, 0));
-} 
+
 /* Hobbies Section */
 
 
@@ -116,6 +116,7 @@ header {
     font-size: 32pt;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 25px;
 
 }
 
@@ -241,6 +242,10 @@ div.form {
 
     #hero h3,
     footer {
+        font-size: 15pt;
+    }
+    
+    #bio {
         font-size: 15pt;
     }
 
