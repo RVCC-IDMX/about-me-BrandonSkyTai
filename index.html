@@ -23,9 +23,17 @@
         <h1>About Me</h1>
 -->
         <nav class="navbar">
-
+            <input type="checkbox" id="nav_checkbox" class="nav_checkbox">
+            <label for="nav_checkbox" class="nav_toggle">
+                <div class="menu">
+                    <img src="img/hamburger.png" alt="Hamburger" width="40px">
+                </div>
+                <div class="close">
+                    <img src="img/close.png" alt="X" width="40px">
+                </div>
+            </label>
             <div class="logo">
-                <img src="img/BoB.svg" alt="Blue origami bird">
+                <img src="img/logo.PNG" alt="Logo that says BST">
                 <h1>About Me</h1>
             </div>
 
@@ -33,6 +41,7 @@
                 <ul>
                     <li><a href="#bio">Biography</a></li>
                     <li><a href="#gallery">Photos</a></li>
+                    <li><a href="#video">Video</a></li>
                     <li><a href="#lit">Blog</a></li>
                     <li><a href="#contact">Contact Me</a></li>
                 </ul>
@@ -153,8 +162,10 @@
             <div id="litcenter">
 
                 <p> If you want to add a nice effect on your images to make them pop and add some jazz to your page,
-                    these effects will be a nice addition. First we have the Enlarge effect which enlarges an image
-                    on a hover which is goos for smaller screens where you are trying to make the image bigger without
+                    the blur and enlarge effects can add visual interest and emphasis to images on a web page. They can help draw the user's attention to a specific image and make it stand out from the rest.
+                    Additionally, the blur effect can also help create a sense of focus and clarity by blurring out the surrounding content. This can be particularly useful when an image is the main focus of a page or section, and you want the user to be able to view it clearly.
+                    Overall, these effects can be a useful way to enhance the visual appeal of images on a web page and make them more engaging for the user. First we have the Enlarge effect which enlarges an image
+                    on a hover which is good for smaller screens where you are trying to make the image bigger without
                     compromising the layout of the page and even on normal size screens to help focus on the picture and
                     even help the visitors see the picture better. Next is the blur effect, a really cool effect that
                     blurs out everything but the picture you are hovering over. It adds emphasis on the picture you want to
@@ -169,7 +180,7 @@
                     write "transitions: 1000ms;" formated like so. <br> ".grow img{ <br> transition: 1000ms; <br> }" <br> This is setting the time it
                     takes for the scaling to happen. 1000ms is 1second. Continuing in the css make a new line for the hover effect. The following ".grow img:hover { }"
                     Then fill in the following the brackets with <br> ".grow img:hover { <br> -webkit-transform: scale(1.4); <br> -ms-transform: scale(1.4); <br> transform: scale(1.4); <br> transition: 1000ms ease; <br> }"
-                    <br> These webkits are just for making sure that the hover effect works across all web browsers. The scale is what the transform is doing and inside the () is how much is will scale by"
+                    <br>  These webkits are used to target specific browsers and ensure that the styles are applied correctly. The scale property is used to specify how the element should be transformed, in this case by scaling it up by 1.4 times its original size.
                     After this the hover effect should be applied and when you put your cursor over the image the photo should now enlarge. 
                 </p>
 
@@ -178,25 +189,18 @@
                     <br> And then we will create another div inside that div called card. <br> 
                     &lt;div class="blur"&gt; <br> &lt;div class="card"&gt; <br> &lt;div class="grow"&gt; <br> &lt;img src="img/shoes-640w.jpg" alt="a bunch of left shoes"&gt; <br> &lt;/div&gt; <br> &lt;/div&gt;
                     <br> Next open the css file. Going to create a new line targeting the div class="blur" <br> ".blur { <br> display: flex; <br> justify-content: space-evenly; <br> }" <br>
-                    Now create one targeting div class="card" <br>
+                    Now create one targeting div class="card" by doing the following<br>
                     ".card { <br> padding: 10px; <br> margin: 0px 10px; <br> text-align: center; <br> transition: 500ms; <br> }" <br> This is adding some style to the div. Time to create the hover effect for the blur. Create a new line for the hover effect like so. <br>
                     ".blur:hover .card { <br> filter: blur(10px); <br> }" <br> This creates a blur effect when you hover over the image but it also blurs out the image, so let's fix that. Create a new line for this <br> 
-                    ".profile .card:hover { <br> filter: blur(0px); <br> }" <br> What this does is it let's the code know that when you hover over the specific image it will blur everything but the image the cursor is hovering over. <br>
-                </p>
+                    ".profile .card:hover { <br> filter: blur(0px); <br> }" <br> To prevent the image itself from being blurred, the .profile .card:hover selector is used to target .card elements that are within a .profile container that is being hovered over. When this happens, 
+                    the filter property is applied with a blur value of 0px, which removes the blur effect from the image. This can be a useful way to create visual emphasis and focus on a specific image within a grid of images.
+                <br><br>
                 
-                <p> 
-                    If you followed these steps correctly your code should work and the image you applied this to should behave like this: 
+                
+                    If you followed these steps correctly your code should work and the image you applied this to should behave like this: <li><a href="#gallery">Photos</a></li> 
                 </p>
             
             </article>
-        <div class="profile">
-            <div class="card">
-                <div class="growTwo">
-                    <img src="img/shoes-640w.jpg" alt="a bunch of left shoes">
-                    <figcaption>Some of the sneakers in my shoe collection. My favorites.</figcaption>
-                </div>
-            </div>
-        </div>    
 
         
 
